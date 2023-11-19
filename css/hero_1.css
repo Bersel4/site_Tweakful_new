@@ -1,46 +1,79 @@
-
-.hero1 h1 {
-    font-size: 64px;
-    text-transform: capitalize;
+.hero {
+    width: 1200px;
+    height: 840px;
 }
 
-.hero1 .text1 {
-    width: 500px;
-    height: 216px;
+
+.description {
+    width: 635px;
+    height: 549px;
     display: inline-block;
-   /* margin:145px 0 30px 120px; */
+    vertical-align: top;
+    margin-top:145px;
+    
 }
 
 .woman {
     width: 460px;
-    height:548px;
-    border-radius: 3px;
+    height: 549px;
     display: inline-block;
-    margin-top:185px;
+    margin-left: 105px;
+    margin-top:145px;
 }
 
-.hero1 p {
-    display: inline-block;
-    font-size: 30px;   
-}
-/*
-.hero1 .text2 {
-    width: 468px;
-    height: 150px;
-    display: inline-block;
-}
-*/
 
-.hero1 .button {
+
+.description .text1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 30px ;
+}
+
+
+.description .text2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.description .button {
+    margin-bottom: 90px;
+}
+
+.description button {
+    width: 240px;
+    height: 56px;
+    background-color:#2E4FD7;
+    color: white;
+    font-size: 20px;
+    padding: -15px 0px 15px 25px;
+}
+
+.description .arrow {
+    padding-left: 10px;
+    width: 33px;
+}
+
+.description .text3 {
+    width: 250px;
+    height: 56px;
+    margin-left: 22px;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+.description ul li{
+    list-style: none;
+    display: inline-block;
     
+
 }
 
-.container2 {
-    height: 548px;
-    display: inline-block;
-    width: 600px;
+.description ul li:nth-child(2) {
+   padding-left: 20px;
 }
 
-.hero1 {
-    
+.description ul li:nth-child(3) {
+    padding-left: 20px;
 }
