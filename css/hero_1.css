@@ -1,8 +1,10 @@
-
+.hero1 {
+    width: 1200px;
+}
 
 
 .description {
-    width: 635px;
+    width: 620px;
     height: 549px;
     display: inline-block;
     vertical-align: top;
@@ -11,7 +13,7 @@
 }
 
 .woman {
-    width: 460px;
+    width: 470px;
     height: 549px;
     display: inline-block;
     margin-left: 105px;
