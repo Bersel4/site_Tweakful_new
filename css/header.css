@@ -1,8 +1,24 @@
-.header {
+.header-list{
+    display: inline-block;
     height: 80px;
     border: 2px solid black;
 }
 
-.header img {
+.header-list img {
     margin-left: 111px;
 }
+
+.header-list span {
+    margin-left: 9px;
+}
+
+.header-list a {
+    margin-left: 53px;
+    padding: 31px;
+}
+
+.header-list button {
+    display: inline-block;
+    
+}
+
