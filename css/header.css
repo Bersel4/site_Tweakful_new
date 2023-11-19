@@ -1,12 +1,15 @@
+.header {
+    
+}
+
 .header-list{
     display: inline-block;
     height: 80px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
-.header-list img {
-    margin-left: 111px;
-}
+/* .header-list img {
+} */
 
 .header-list span {
     margin-left: 9px;
@@ -15,10 +18,31 @@
 .header-list a {
     margin-left: 53px;
     padding: 31px;
+    text-decoration: none;
 }
 
 .header-list button {
     display: inline-block;
-    
 }
+
+.header-button {
+    display: inline-block;
+    width: 176px;
+    text-align: center;
+}
+
+.header-button button {
+    background-color: #2E4FD7;
+    color: white;
+    padding-right: 5px;
+    padding-left: 16px;
+    margin-left: 32px;
+}
+
+.header-button  img {
+    padding-right: 5px;
+    margin-left: 5px;
+    align-items: center;
+}
+
 
