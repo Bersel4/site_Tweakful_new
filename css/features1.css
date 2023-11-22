@@ -1,5 +1,5 @@
 .features1 {
-    border: 1px solid black;
+    display: flex;
     width: 1114px;
     height: 367px;
     margin: 131px 163px 152px 163px;
@@ -13,22 +13,25 @@
     height: 367px;
 }
 
+
 .icon-text {
-    border: 1px solid black;
+    width: 390px;
+    height: 89px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 10px;
-    margin-bottom: 18px;
-    gap: 25px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    gap: 20px;
 }
 
 .icon-text:last-child {
-    height: 78px;
+    height: 88px;
 }
 
 .icon-text p,
 .icon-text span {
-    border: 1px solid black;
+    margin-left: 30px;
     display: flex;
     flex:content;
 }
@@ -36,16 +39,20 @@
 .icon-text span {
     font-size: 20px;
     font-weight: bold;
-    width: 145px;
+    width: 130px;
     height: 30px;
+    position: relative;
+    top: -10px;
+    left: -30px;
 }
 
 .icon-text p {
-    width: 330px;
+    width: 20px;
+    line-height: 26px;
     position: relative;
     top: -48px;
-    margin-left: 80px;
-    height: 35px;
+    margin-left: 75px;
+    height: 50px;
 }
 
 
@@ -57,4 +64,38 @@
     position: relative;
     top:-10px;
     background-color:#E7EBFC;
+}
+
+.text-button{
+    margin-left: 164px;
+    width: 540px;
+    height: 346px;
+}
+
+.text-button h1 {
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+
+.text-button p {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.text-button button {
+    text-align: left;
+    background-color: #2E4FD7;
+    color: #fff;
+    border: none;
+    margin-top: 25px;
+    padding: 15px 45px;
+    background-image: url(/site_Tweakful_new/img/long_right.svg);
+    background-repeat: no-repeat;
+    background-position: 150px;
+}
+
+.text-button button span {
+    display: inline-block;
+    position: relative;
+    left: -10px;
 }
