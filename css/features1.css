@@ -1,0 +1,60 @@
+.features1 {
+    border: 1px solid black;
+    width: 1114px;
+    height: 367px;
+    margin: 131px 163px 152px 163px;
+}
+
+.icon-benefit-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 410px;
+    height: 367px;
+}
+
+.icon-text {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-bottom: 18px;
+    gap: 25px;
+}
+
+.icon-text:last-child {
+    height: 78px;
+}
+
+.icon-text p,
+.icon-text span {
+    border: 1px solid black;
+    display: flex;
+    flex:content;
+}
+
+.icon-text span {
+    font-size: 20px;
+    font-weight: bold;
+    width: 145px;
+    height: 30px;
+}
+
+.icon-text p {
+    width: 330px;
+    position: relative;
+    top: -48px;
+    margin-left: 80px;
+    height: 35px;
+}
+
+
+.icon-text .icon-benefit{
+    width: 54px;
+    height: 54px;
+    padding: 15px;
+    border-radius: 27px;
+    position: relative;
+    top:-10px;
+    background-color:#E7EBFC;
+}
