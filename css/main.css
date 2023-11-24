@@ -6,6 +6,6 @@
  }
 
 .container {
-    max-width: 1440px;
+    max-width: 1200px; /*поменял */
     margin: 0 auto;
 }
