@@ -1,0 +1,33 @@
+.benefit {
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: #fff;
+    width: 1,440px;
+    height: px;
+
+}
+
+section {
+    display: block;
+}
+
+
+.benefit-header {
+    border: 1px solid black;
+    width: 668px;
+    height: 62px;
+}
+
+.benefit-item1 {
+    border: 1px solid black;
+    width: 1,110px;
+    height: 94px;
+    display: block;
+}
+
+.benefit-item2 {
+    border: 1px solid black;
+    width: 1,110px;
+    height: 94px;
+    display: block;
+}
