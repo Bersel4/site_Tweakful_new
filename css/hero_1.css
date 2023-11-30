@@ -1,0 +1,78 @@
+.hero1 {
+    width: 1440px;
+}
+
+
+.description {
+    width: 620px;
+    height: 549px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:145px;
+    
+}
+
+.hero1 .woman {
+    width: 470px;
+    height: 549px;
+    display: inline-block;
+    margin-left: 105px;
+    margin-top:145px;
+}
+
+
+
+.description .text1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 30px ;
+}
+
+
+.description .text2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.description .button {
+    margin-bottom: 90px;
+}
+
+.description button {
+    width: 240px;
+    height: 56px;
+    background-color:#2E4FD7;
+    color: white;
+    font-size: 20px;
+    padding: -15px 0px 15px 25px;
+}
+
+.description .arrow {
+    padding-left: 10px;
+    width: 33px;
+}
+
+.description .text3 {
+    width: 250px;
+    height: 56px;
+    margin-left: 22px;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+.description ul li{
+    list-style: none;
+    display: inline-block;
+    
+
+}
+
+.description ul li:nth-child(2) {
+   padding-left: 20px;
+}
+
+.description ul li:nth-child(3) {
+    padding-left: 20px;
+}

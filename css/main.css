@@ -1,13 +1,17 @@
 *, body {
-    font-family: Inter;
+    font-family: "Inter", sans-serif; /* поменял */
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-}
+ }
 
 .container {
+<<<<<<< HEAD
     font-family: Inter;
     max-width: 1200px;
+=======
+    max-width: 1200px; /*поменял */
+>>>>>>> origin/hero1
     margin: 0 auto;
     /* border: 2px solid green; */
 }
