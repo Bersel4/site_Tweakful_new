@@ -88,14 +88,17 @@
     color: #fff;
     border: none;
     margin-top: 25px;
-    padding: 15px 45px;
     background-image: url(/site_Tweakful_new/img/long_right.svg);
     background-repeat: no-repeat;
     background-position: 150px;
 }
 
-.text-button button span {
+.text-button button a {
     display: inline-block;
+    text-decoration: none;
     position: relative;
-    left: -10px;
+    margin-left: -20px;
+    color: #fff;
+    padding: 15px 45px;
+    font-size: 16px;
 }
