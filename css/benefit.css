@@ -8,7 +8,7 @@
 /*     border: 1px solid red; */
     background-color: #fff;
     width: 1,440px;
-    padding: 132px;
+    padding: 132px 0;
 }
 
 section {
@@ -34,13 +34,11 @@ section {
 /*     border: 1px solid black; */
     margin-top: 48px;
     padding: 0;
-    width: 1130px;
 }
 
 .benefit-item2 {
 /*     border: 1px solid black; */
     margin-top: 38px;
-    width: 1130px;
 }
 
 
@@ -57,7 +55,6 @@ section {
 
 .benefit-box {
     display: inline-block;
-/*     border: 1px solid red; */
     margin-left: 30px;
     width: 540px;
     height: 94px;
